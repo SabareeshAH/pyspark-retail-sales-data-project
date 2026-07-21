@@ -206,42 +206,6 @@ Retail-Sales-Analysis/
 
 ---
 
-## How to Run
-
-### 1. Start Docker Desktop
-
-Ensure Docker Desktop is running with the Apache Spark environment.
-
-### 2. Generate Sample Data
-
-```bash
-python random_data_generator.py
-```
-
-### 3. Execute Bronze Layer
-
-```bash
-spark-submit bronze_layer.py
-```
-
-### 4. Execute Silver Layer
-
-```bash
-spark-submit silver_layer.py
-```
-
-### 5. Execute Gold Layer
-
-```bash
-spark-submit gold_layer.py
-```
-
-### 6. Launch the Dashboard
-
-Run the dashboard application to visualize the Gold layer datasets.
-
----
-
 ## Future Enhancements
 
 * Integration with cloud object storage (AWS S3, Azure Data Lake, or Google Cloud Storage)
